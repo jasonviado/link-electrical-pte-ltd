@@ -1,0 +1,84 @@
+a {
+	cursor: pointer;
+}
+.nav-item.active{
+	border-bottom: 2px solid #fff !important;
+	font-weight: 700 !important;	
+}
+.jumbotron{
+	background-color: #fff;
+}
+
+.carousel.slide{
+	height: 320px;
+}
+
+.carousel.slide .carousel-inner, .carousel.slide .carousel-inner .carousel-item{
+	height: inherit;
+}
+
+.carousel.slide .carousel-inner .carousel-item img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;	
+}
+.item-image{
+	height: 240px;
+}
+.item-image img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;	
+}
+.item-title{
+    text-overflow: ellipsis;
+    width: 100%;
+    overflow: hidden;	
+}
+.fa.fa-edit{
+	cursor: pointer;
+}
+.numbers{
+	width: 100%;
+}
+.btn.btn-outline-success{
+	border: 1px solid #e3e3e3;
+}
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    display: block;
+    width: 150px;
+    border: 1px solid #e3e3e3;
+    padding: 13px;
+    text-align: center;
+    border-radius: 10px;
+}
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: #e3e3e3;
+}
+.inputfile + label {
+	cursor: pointer;
+}
+.imageContainer{
+    height: 100px;
+    width: 320px;	
+}
+#previewImage{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.paginationContainer .fixed-left{
+	position: absolute;
+    right: 0px;
+}
